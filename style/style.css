@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(135, 175, 175);
+}
+img{
+    border-radius:100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1{
+    margin: 30px;
+}
+
