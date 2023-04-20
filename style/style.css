@@ -54,28 +54,57 @@ header>h1 {
     margin-right: 500px;
 }
 
-#home {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+#perfil {
+    height: 90vh;
     color: var(--cor2);
 }
 
-.inicio {
-    height: 200px;
-    width: 100%;
+.all {
+    height: 80%;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
 }
 
 .apresentacao {
-    margin-top: -220px;
-    margin-left:200px;
+    margin-top: -70px;
+    margin-left: 200px;
     width: 50%;
 }
 
-#home>.inicio>.apresentacao>.t1 {
+.contato {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.contato-itens {
+    margin-top: 120px;
+}
+
+.teste {
+    margin-top:-3%;
+    height: 17vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tituloTec {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.contato>a>img {
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.contato-itens>p {
+    color: var(--cor2);
+}
+
+.t1 {
     font-size: 45px;
 }
 
@@ -83,14 +112,13 @@ header>h1 {
     height: 450px;
     width: 650px;
     border-radius: 30px;
-    margin-top: -250px;
 }
 
 .detalhe {
     width: 60%;
     text-align: justify;
     font-size: 24px;
-    margin-top:50px ;
+    margin-top: 40px;
 }
 
 #sobre {
@@ -135,13 +163,28 @@ header>h1 {
 }
 
 .tecnologia {
-    margin-top:30px;
-    height: 200px;
+    height: 100%;
+    width: 50%;
+    text-align: center;
 }
 
-.tecnologia>h2 {
-    text-align: center;
-    margin: 40px;
+.tecnologia>img {
+    text-decoration: none;
+    transition: transform 1s;
+}
+
+.tecnologia>img:hover, 
+.tecnologia>img:focus {
+    transform: scale(1.1);
+}
+
+.contato>a>img:hover,
+.contato>a>img:focus {
+    transform: scale(1.1);
+}
+
+.contato>a>img{
+    transition: transform 1s;
 }
 
 .imgTec {
@@ -209,24 +252,4 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: var(--cor1);
-}
-
-#contato>h3 {
-    text-align: center;
-    color: var(--cor2);
-    margin-bottom: 10px;
-}
-
-.contato-itens {
-    text-align: center;
-}
-
-.contato-itens>a>img {
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.contato-itens>p {
-    color: var(--cor2);
 }
