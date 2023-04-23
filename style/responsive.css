@@ -1,0 +1,28 @@
+@media (max-width:1280px) {
+    header>h1{
+        font-size: 2em;
+        margin-right: 12%;
+    }
+    .t1 {
+        font-size: 1.8em;
+    }
+
+    .detalhe {
+        font-size: 1.2em;
+    }
+
+    .gifImage {
+        height: 50vh;
+        width: 38vw;
+        margin-right: 60px;
+    }
+    .tituloTec{
+        font-size: 1.2em;
+    }
+    .contato>a>img{
+        height: 52px;
+    }
+    .imgTec{
+        height: 52px;
+    }
+}

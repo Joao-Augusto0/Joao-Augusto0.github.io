@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
 </head>
 
 <body>
     <header>
         <h1><abbr title="João Augusto Rocha Carloto">JARC</abbr></h1>
-
         <nav>
             <a href="#home">Home</a>
             <a href="#all">Projetos</a>
@@ -29,7 +29,7 @@
                         Desenvolvedor Full Stack
                     </h1>
                     <p class="detalhe">
-                        Tenho 19 anos e sempre fui apixonado pelo mundo da tecnologia, em 2022 comecei
+                        Tenho 19 anos e sempre fui apaixonado pelo mundo da tecnologia, em 2022 comecei
                         meus estudos no
                         Senai, curso Técnico de Desenvolvimento de Sistemas
                         e estou atualmente
@@ -57,56 +57,87 @@
                             src="https://play-lh.googleusercontent.com/LM9vBt64KdRxLFRPMpNM6OvnGTGoUFSXYV-w-cGVeUxhgFWkCsfsPSJ5GYh7x9qKqw"
                             alt="link para o instagram">
                     </a>
-                    <a href="mailto:joaoaugustorc00@gmail.com"><img class="in" src="assets/gmail.png" alt=""></a>
+                    <a href="https://api.whatsapp.com/send?phone=5519987428374&text=Sua%20mensagem%20aqui" target="_blank" title="instagram"><img
+                            src="assets/whatsapp.png"
+                            alt="link para o whatsapp">
+                    </a>
+                    <a href="mailto:joaoaugustorc00@gmail.com"><img class="in" src="assets/gmail.png" alt="Email"></a>
                 </div>
                 <div class="tecnologia">
                     <h2 class="tituloTec">Tecnologias</h2>
-                    <img class="imgTec" src="https://logospng.org/download/java/logo-java-512.png" />
+                    <img class="imgTec" src="https://logospng.org/download/java/logo-java-512.png"
+                        alt="Icone da linguagem Java" />
+                    <img class="imgTec" src="https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-1.png"
+                        alt="Icone da linguagem JavaScript" />
+                    <img class="imgTec" src="https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png"
+                        alt="Icone do framework NodeJs" />
+                    <img class="imgTec" src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"
+                        alt="Icone do framework react-native" />
+                    <img class="imgTec" src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png"
+                        alt="Icone da linguagem mysql" />
                     <img class="imgTec"
-                        src="https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-1.png" />
-                    <img class="imgTec" src="https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png" />
-                    <img class="imgTec" src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png" />
-                    <img class="imgTec" src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" />
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                        alt="Icone da tecnologia HTML" />
                     <img class="imgTec"
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
-                    <img class="imgTec"
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+                        alt="Icone da tecnologia CSS" />
                 </div>
             </div>
         </section>
-
-      
 
         <section id="all">
             <div class="pro">
                 <h3>Projetos</h3>
             </div>
             <div class="projetos">
-                <article class="projeto1">
-                    <a href="https://joao-augusto0.github.io/projeto-filme/">
-                        <img src="assets/casal.png" alt="">
-                    </a>
-                </article>
-
-                <article class="projeto2">
-                    <p>Em andamento</p>
-                </article>
-
-                <article class="projeto3">
-                    <p>Em andamento</p>
-                </article>
-
-                <article class="projeto4">
-                    <p>Em andamento</p>
-                </article>
-
-                <article class="projeto5">
-                    <p>Em andamento</p>
-                </article>
-
-                <article class="projeto6">
-                    <p>Em andamento</p>
-                </article>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="assets/casal.png">
+                            <h3>landing page</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Uma landing page do filme Amor de aluguel <br> Tecnologias usadas:</p>
+                            <img class="imgTec"
+                                src="https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-1.png" />
+                            <img class="imgTec"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
+                            <img class="imgTec"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+                            <a href="https://joao-augusto0.github.io/projeto-filme/" target="_blank">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="assets/em-andamento.png">
+                            <h3>PlayOnMatch </h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Em andamento</p>
+                            <a href="#">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="assets/em-andamento.png">
+                            <h3>App Chat</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Em andamento</p>
+                            <a href="#">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
