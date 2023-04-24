@@ -109,9 +109,10 @@ header>h1 {
 }
 
 .gifImage {
-    height: 75vh;
-    width: 50vw;
+    height: 40vh;
+    width: 28vw;
     border-radius: 30px;
+    margin-right:250px ;
 }
 
 .detalhe {
@@ -221,7 +222,7 @@ header>h1 {
 .projetos{
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .projetos .card{
