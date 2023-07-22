@@ -1,31 +1,25 @@
 @media (max-width:1440px) {
-    .gifImage{
-        height: 50vh;
-        width: 40vw;
-        margin-right: 60px;
+    .tituloTec {
+        padding: 0;
     }
-    .t1{
+}
+
+@media (max-width:1300px) {
+    .t1 {
         font-size: 2em;
     }
-    .tituloTec{
-        font-size:1.5em ;
-    }
-    .contato>a>img{
-        height: 60px;
-    }
-    .imgTec{
-        height: 60px;
-    }
-    header>h1{
-        margin-left: 95px;
+
+    .imgTec {
+        height: 9vh;
     }
 }
 
 @media (max-width:1280px) {
-    header>h1{
+    header>h1 {
         font-size: 2em;
         margin-left: 9%;
     }
+
     .t1 {
         font-size: 1.8em;
     }
@@ -39,23 +33,99 @@
         width: 38vw;
         margin-right: 60px;
     }
-    .tituloTec{
+
+    .tituloTec {
         font-size: 1.2em;
     }
-    .contato>a>img{
+
+    .contato>a>img {
         height: 52px;
     }
-    .imgTec{
-        height: 52px;
+
+    .imgTec,
+    .contato>a>img {
+        height: 7vh;
+    }
+
+    header>nav>a {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width:1080px) {
+    .t1 {
+        font-size: 1.7em;
+    }
+
+    .detalhe {
+        font-size: 1.1em;
+    }
+
+    header>nav>a {
+        font-size: 1em;
     }
 }
 
 @media (max-width:1024px) {
-    header>h1{
+    header>h1 {
         font-size: 2em;
-        margin-left:7%;
+        margin-left: 7%;
     }
-    .t1{
+
+    .t1 {
         font-size: 1.5em;
+    }
+}
+
+@media (max-width:1000px) {
+    .detalhe {
+        font-size: 1em;
+    }
+}
+
+@media (max-width:850px) {
+    .t1 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width:790px) {
+    .gifImage {
+        height: 45vh;
+        width: 30vw;
+        margin-right: 20px;
+    }
+
+    .detalhe {
+        width: 80%;
+    }
+}
+
+@media (max-width:650px) {
+    .all{
+        height: 70%;
+    }
+
+    .TecGif{
+        display: none;
+    }
+
+    .teste {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 10%;
+    }
+
+    .apresentacao{
+        width: 100%;
+    }
+
+    header>nav>a {
+        font-size: 0.8em;
+    }
+
+    .tecnologia,.contato{
+        width: 100%;
     }
 }
