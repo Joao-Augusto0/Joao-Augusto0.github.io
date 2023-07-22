@@ -1,8 +1,27 @@
+@media (max-width:1850px) {
+    .imgTec2 {
+        height: 6vh;
+    }
+}
+
+@media (max-width:1510px) {
+    .imgTec2 {
+        height: 7vh;
+    }
+}
+
 @media (max-width:1440px) {
     .tituloTec {
         padding: 0;
     }
 }
+
+@media (max-width:1320px) {
+    .imgTec2 {
+        height: 8vh;
+    }
+}
+
 
 @media (max-width:1300px) {
     .t1 {
@@ -50,6 +69,17 @@
     header>nav>a {
         font-size: 1.2em;
     }
+
+    .projetos {
+        gap: 5%;
+    }
+}
+
+@media (max-width:1150px) {
+
+    .projetos .card .face {
+        width: 250px;
+    }
 }
 
 @media (max-width:1080px) {
@@ -87,6 +117,10 @@
     .t1 {
         font-size: 1.2em;
     }
+
+    .projetos{
+        gap:7%;
+    }
 }
 
 @media (max-width:790px) {
@@ -102,11 +136,16 @@
 }
 
 @media (max-width:650px) {
-    .all{
+
+    .projetos .card .face {
+        width: 200px;
+    }
+
+    .all {
         height: 70%;
     }
 
-    .TecGif{
+    .TecGif {
         display: none;
     }
 
@@ -117,7 +156,7 @@
         gap: 10%;
     }
 
-    .apresentacao{
+    .apresentacao {
         width: 100%;
     }
 
@@ -125,7 +164,8 @@
         font-size: 0.8em;
     }
 
-    .tecnologia,.contato{
+    .tecnologia,
+    .contato {
         width: 100%;
     }
 }
